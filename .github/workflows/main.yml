@@ -35,5 +35,5 @@ jobs:
           push: true
           tags:
             denilsonbellart/api-produto:latest
-            denilsonbellart/api-produto:$((github.run_number))
+            denilsonbellart/api-produto:${{github.run_number}}
             
