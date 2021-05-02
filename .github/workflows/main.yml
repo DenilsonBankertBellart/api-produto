@@ -40,7 +40,7 @@ jobs:
           # Path to the Dockerfile
           file: .scr/Dockerfile
           push: true
-          tags:
+          tags: |
             denilsonbellart/api-produto:latest
             denilsonbellart/api-produto:${{github.run_number}}
             
