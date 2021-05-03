@@ -61,6 +61,6 @@ jobs:
         uses: Azure/k8s-deploy@v1.3
         with:
           manifests: |
-            ./k8s/mongodb/Deployment.yml
-            ./k8s/mongodb/Service.yml
+            ./K8S/MONGODB/deployment.yml
+            ./K8S/MONGODB/service.yml
          
